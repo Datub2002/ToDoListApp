@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
-
+import UseProfile from './FormValidation/UserProfile/UseProfile';
+import DemoJSS from './JSS_StyledComponent/DemoJSS/DemoJSS';
+import DemoTheme from './JSS_StyledComponent/Themes/DemoTheme';
+import ToDoList from './JSS_StyledComponent/ToDoList/ToDoList';
+import LifeCycle from './ReactLifeCycle/LifeCycle';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <UseProfile />
+       */}
+       {/* <DemoJSS  />
+        */}
+        {/* <DemoTheme />
+         */}
+         <ToDoList />
+         
+          {/* <LifeCycle /> */}
+
+
+
     </div>
   );
 }
